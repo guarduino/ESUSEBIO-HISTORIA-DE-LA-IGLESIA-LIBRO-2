@@ -301,7 +301,7 @@ EUSEBIO ACERCA DE LOS AP&Oacute;STOLES</h2>
     partes.forEach((parte) => {
         var mensaje = new SpeechSynthesisUtterance(parte);
         mensaje.lang = 'es-ES';
-        mensaje.pitch = .7;
+        mensaje.pitch = .9;
         mensaje.rate = 1;
         window.speechSynthesis.speak(mensaje);
     });
