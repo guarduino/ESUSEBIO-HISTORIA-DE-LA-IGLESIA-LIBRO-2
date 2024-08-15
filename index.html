@@ -10,7 +10,7 @@ x
 x
         }
 
-        .contenido-texto {
+        .content {
             max-width: 360px;
             min-width: 100px
             margin: 0 auto;
@@ -37,7 +37,7 @@ x
 
 <button onclick="leerEnVozAlta()">Presionar para Leer en Voz Alta</button>
 
-<div class="contenido-texto">
+<div class="content">
 <h2>EUSEBIO DE &#39;CESAREA<br />
 HISTORIA DE LA IGLESIA</h2>
 
@@ -292,7 +292,7 @@ EUSEBIO ACERCA DE LOS AP&Oacute;STOLES</h2>
 <script>
      function leerEnVozAlta() {
     // Obtener el texto del elemento con la clase "contenido-texto"
-    var texto = document.querySelector('.contenido-texto').innerText;
+    var texto = document.querySelector('.content').innerText;
 
     // Dividir el texto en segmentos mÃ¡s pequeÃ±os
     var partes = dividirTextoEnPartes(texto, 500); // Por ejemplo, 200 caracteres por parte
